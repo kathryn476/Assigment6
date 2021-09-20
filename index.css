@@ -1,0 +1,38 @@
+body{
+    background-color: #FFF6CD;
+}
+
+.container{
+    text-align: center;
+    background-color: #3B0000;
+    color: whitesmoke;
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    font-size: large;
+}
+.content{
+    text-align: center;
+
+}
+.card:hover{
+    box-shadow:0 8px 16px 0 rgb,(0, 0, 0, 0.8 );
+}
+.img{
+    min-width: 80%;
+    max-height: 80PX;
+    padding: 10px 20px;
+    border-radius: 50%;
+    size: 50%;
+
+}
+
+p{
+    height: 10px;
+}
